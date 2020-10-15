@@ -161,7 +161,67 @@ p{
 
 /* __ ** Cubrebocas **__*/
 
-/* __ **Playeras**__*/
+/* __ ** Formulario **__*/
+
+.form{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 0 10rem 0 10rem;
+}
+
+.datos-personales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.datos-personales label{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1.3rem;
+}
+
+.datos-personales input{
+    background-color: #c4c4c41a;
+    width: 15rem;
+    height: 2rem;
+}
+
+.diseño{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.seleccion h1{
+    font-family: var(--primary-font);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.seleccion button{
+    background-color: #a2f60d;
+    width: 10rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.adjunto h1{
+    font-family: var(--primary-font);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.adj-cont{
+    width: 30rem;
+    height: 10rem;
+    background-color: gray;
+    margin: 0 auto;
+}
 
 
 /* -- Keyframes--*/
