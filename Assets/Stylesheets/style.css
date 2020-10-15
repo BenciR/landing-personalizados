@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Root */
+:root {
+    --primary-color: #fff;
+    --primary-font: 'Boogaloo', cursive;
+
+}
+
+
+/* General */
+body{
+    background-color: #000;
+}
+
+h1,
+h2,
+h3,
+p{
+    color: var(--primary-color);
+}
+
+.cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    background-image: url(https://i.pinimg.com/originals/3a/0b/40/3a0b40d96c53860572a1c29970ce14a8.gif);
+}
+
+.spaceship{
+    position: relative;
+    width: 20rem;
+    top: 20%;
+    left: -15%;
+}
+
+.cover h1{
+    font-size: 5rem;
+    font-family: var(--primary-font);
+    text-align: center;
+}
+
+.logo{
+    width: 13rem;
+}
+
+.intro-text{
+    margin: 7rem;
+}
+
+.intro h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+}
+
+.ayuda{
+    width: 30rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    background-color: #a2f60d;
+    color: #000;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.intro-images{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.intro-images p{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #a2f60d;
+}
+
+.intro-btn{
+    display: block;
+    margin: 5rem auto 0 auto;
+    background-color:#a2f60d;
+    color: #000;
+    padding: 1rem;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+/* __ **Clientes** __*/
+
+.clientes-title{
+    font-family: var(--primary-font);
+    color: #a2f60d;
+    font-size: 5rem;
+    margin: 2rem 0 0 4rem;
+}
+
+.slider{
+    overflow: hidden;
+    height: 30rem;
+}
+
+.slider figure{
+    width: 500%;
+    margin: 0;
+    left: 0;
+    position: relative;
+    animation: slider 25s linear infinite;
+}
+
+.alienWheadphones{
+    width: 20rem;
+    float: left;
+}
+
+.clientes-text{
+    margin: 5rem 2rem 4rem 2rem;
+    border: 1px solid #a2f60d;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* __ **Playeras**__*/
+.playeras{
+    height: 50rem;
+    background-image: url(https://i.pinimg.com/originals/9b/2f/cf/9b2fcfc4838dbcbe8b97e2e038789e6b.gif     );
+}
+
+.playeras h1{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    color: #a2f60d;
+    font-family: var(--primary-font);
+}
+
+.playeras-img{
+    display: block;
+    margin: 0 auto;
+    width: 40rem;
+}
+
+.playeras-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.ply-btn{
+    margin-top: 1rem;
+}
+
+/* __ ** Cubrebocas **__*/
+
+/* __ **Playeras**__*/
+
+
+/* -- Keyframes--*/
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+
+    20%{
+        left: 0;
+    }
+
+    25%{
+        left: -100%;
+    }
+
+    /*45%{
+        left: -100%;
+    }
+
+    50%{
+        left: -200%;
+    }
+
+    70%{
+        left: -200%;
+    }
+
+    75%{
+        left: -300%;
+    }
+
+    95%{
+        left: -300%;
+    }
+
+    100%{
+        left: -400%;
+    }*/
+}
