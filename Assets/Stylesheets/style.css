@@ -176,7 +176,7 @@ p{
 
 .slider-text{
     height: 10rem;
-    font-size: 8rem;
+    font-size: 4rem;
     font-family: 'Roboto', sans-serif;
     color: #fff;
     background-color: rgb(41, 41, 41);
@@ -217,11 +217,16 @@ p{
 }
 
 /* __ ** Pasos **__*/
+.pasos h1{
+    font-family: 'Boogaloo', cursive;
+    font-size: 7rem;
+    margin: 0 10rem 0 10rem;
+    color: #a2f60d;
+}
+
 .pasos img{
     width: 100%
 }
-
-
 
 /* __ ** Formulario **__*/
 
@@ -284,6 +289,20 @@ p{
     height: 10rem;
     background-color: gray;
     margin: 0 auto;
+}
+
+.mensaje{
+    margin: 3rem 0 0 0;
+}
+
+.msg-cont{
+    width: 100%;
+    height: 20rem;
+    background-color: rgb(73, 73, 73);
+    border: 1px solid #fff;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
 }
 
 /* -- Media queries -- */
