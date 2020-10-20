@@ -60,7 +60,7 @@ p{
 }
 
 .ayuda{
-    width: 30rem;
+    width: 40%;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 2rem;
@@ -161,7 +161,7 @@ p{
 .playeras-img{
     display: block;
     margin: 0 auto;
-    width: 40rem;
+    width: 50%;
 }
 
 .playeras-text{
@@ -174,41 +174,54 @@ p{
     margin-top: 1rem;
 }
 
-/* __ ** Cubrebocas **__*/
-
-/* __ ** Pasos **__*/
-.pasos{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-}
-
-.pasos h1{
-    grid-area: normal;
-}
-
-.pasos-img img{
-    width: 30rem;
-}
-
-.pasos1{
-    width: 10rem;
+.slider-text{
     height: 10rem;
-    background-color: #a2f60d;
-    border-radius: 50%;
+    font-size: 8rem;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-color: rgb(41, 41, 41);
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    margin-bottom: 10rem;
-}
-
-.pasos-circle__text {
-    font-size: 7rem;
-    font-family: 'Boogaloo', cursive;   
-    color: #000;
-    display: flex;
-    align-items: center;
     justify-content: center;
 }
+
+/* __ ** Cubrebocas **__*/
+
+.cubrebocas{
+    margin: 0 0 10rem 0;
+    height: 40rem;
+    background-image: url(https://i.pinimg.com/originals/9b/2f/cf/9b2fcfc4838dbcbe8b97e2e038789e6b.gif     );
+}
+
+.cubrebocas h1{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    color: #a2f60d;
+    font-family: var(--primary-font);
+}
+
+.cubrebocas-img{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.cubrebocas-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.cub-btn{
+    margin-top: 1rem;
+}
+
+/* __ ** Pasos **__*/
+.pasos img{
+    width: 100%
+}
+
+
 
 /* __ ** Formulario **__*/
 
@@ -267,7 +280,7 @@ p{
 }
 
 .adj-cont{
-    width: 30rem;
+    width: 80%;
     height: 10rem;
     background-color: gray;
     margin: 0 auto;
