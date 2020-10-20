@@ -51,7 +51,7 @@ p{
 }
 
 .intro-text{
-    margin: 7rem;
+    margin: 10%;
 }
 
 .intro h1 {
@@ -76,6 +76,20 @@ p{
     text-align: center;
 }
 
+.intro-images__circle{
+    background-color: #fff;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-images__circle img{
+    width: 70%;
+}
+
 .intro-images p{
     font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
@@ -92,6 +106,7 @@ p{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 /* __ **Clientes** __*/
@@ -161,12 +176,46 @@ p{
 
 /* __ ** Cubrebocas **__*/
 
+/* __ ** Pasos **__*/
+.pasos{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.pasos h1{
+    grid-area: normal;
+}
+
+.pasos-img img{
+    width: 30rem;
+}
+
+.pasos1{
+    width: 10rem;
+    height: 10rem;
+    background-color: #a2f60d;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 10rem;
+}
+
+.pasos-circle__text {
+    font-size: 7rem;
+    font-family: 'Boogaloo', cursive;   
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* __ ** Formulario **__*/
 
 .form{
     display: grid;
     grid-template-columns: 30% 70%;
-    margin: 0 10rem 0 10rem;
+    margin: 0 15% 10% 15%;
 }
 
 .datos-personales{
@@ -208,6 +257,7 @@ p{
     padding: 1rem;
     margin: 2rem;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
 
 .adjunto h1{
@@ -223,6 +273,12 @@ p{
     margin: 0 auto;
 }
 
+/* -- Media queries -- */
+@media (max-width: 600px){
+    .form{
+        display: block;
+    }
+}
 
 /* -- Keyframes--*/
 
